@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\joshua\Downloads\New folder\New folder\app\src\main\assets\achartengine-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6dcd14c7098ae6716651eaac2176450b82241ba5">
+        <dex dex="C:\Users\joshua\Downloads\New folder\New folder\app\build\intermediates\pre-dexed\debug\achartengine-1.2.0-32bfe096e32e9a6d089de8cfc0d532fd50262158.jar" />
+    </item>
+
+</items>

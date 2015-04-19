@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/joshua/Downloads/New%20folder/New%20folder/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <color name="blue">#0000FF</color>
+    <color name="green">#00FF00</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">MacroNutrient Calculator</string>
+    <string name="hello">Joshua Byer\'s MacroNutrient Calculator</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="save">Save</string>
+</resources>

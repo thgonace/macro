@@ -1,0 +1,2 @@
+C:\Users\joshua\Downloads\New folder\New folder\app\build\intermediates\classes\debug
+C:\Users\joshua\Downloads\New folder\New folder\app\build\intermediates\pre-dexed\debug\achartengine-1.2.0-32bfe096e32e9a6d089de8cfc0d532fd50262158.jar

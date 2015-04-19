@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:width="120dp"
+        android:textSize = "30dp"
+        android:text="Protein :"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:width="120dp"
+        android:textSize = "30dp"
+        android:text="Carbs :"
+        android:layout_below="@id/textView1"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:width="120dp"
+        android:textSize = "30dp"
+        android:layout_below="@id/textView2"
+        android:text="Fat :"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <EditText
+        android:id="@+id/proteinedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/textView1"
+        android:numeric="integer"
+        android:layout_toEndOf="@id/textView1"
+        android:width="5000dp"
+        />
+    <EditText
+        android:id="@+id/carbsedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/textView2"
+        android:layout_below="@id/proteinedit"
+        android:numeric="integer"
+        android:layout_toEndOf="@id/textView2"
+        android:width="5000dp"
+        />
+    <EditText
+        android:id="@+id/fatedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@id/textView3"
+        android:layout_below="@id/carbsedit"
+        android:numeric="integer"
+        android:layout_toEndOf="@id/textView3"
+        android:width="5000dp"
+        />
+<Button
+    android:id="@+id/addmeal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Add meal Entry"
+    android:layout_marginTop="20dp"
+    android:layout_below="@id/fatedit"
+    android:onClick="newMealEntry"
+    />
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pieadd"
+        android:layout_below="@+id/addmeal">
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>
